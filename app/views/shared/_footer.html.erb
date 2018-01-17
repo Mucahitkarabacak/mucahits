@@ -1,0 +1,8 @@
+<div class="container">
+<footer id="foot">
+  <h4 align="left"><b>Mücait KARABACAK - 14542511</b> </h4>
+  <h4 align="left"><i><%=t("footer")%></i></h4>
+  <center><% request.env.each do |key, value| %>
+<strong><%= key %></strong> => <%= value %><br/>
+<% end %></center>
+</footer></div>
